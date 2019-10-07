@@ -1,0 +1,129 @@
+/* Base styles */
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background: #f6f6f6;
+}
+
+input {
+    display: block;
+    text-indent: 10px;
+}
+
+
+/* Layout styles */
+
+
+
+
+/* Module styles */
+.logo {
+    display: block;
+    width: 83%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.highlighted {
+    box-sizing: border-box;
+    line-height: 40px;
+    width: 83%;
+    max-width: 480px;
+    margin: 2rem auto 1rem;
+    font-weight: 500;
+    font-size: 19px;
+    font-style: italic;
+}
+
+/* Will this be included?
+.underline {
+    width: 83%;
+    max-width: 480px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-decoration: underline;
+    font-weight: 700;
+}
+*/
+
+.booktitle {
+    width: 83%;
+    max-width: 480px;
+    margin: 3rem auto 1rem;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-decoration: underline;
+}
+
+/* Will this be included ?
+.author {
+    width: 83%;
+    max-width: 480px;
+    margin: 0.25rem auto 1.5rem;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+*/
+
+.newsletter {
+    width: 83%;
+    max-width: 480px;
+    margin: 2rem auto 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Sub-module styles */
+.highlighted-text {
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+.newsletter-overview {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.newsletter-name {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: solid 4px black;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.newsletter-email {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: solid 4px black;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.newsletter-button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: black;
+    color: #fafafa;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    box-sizing: border-box;
+}
+
+/* State styles */
+
+/* @Media styles */
+
