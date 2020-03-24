@@ -15,7 +15,9 @@ input {
 
 
 /* Layout styles */
-
+.layout-header {
+    margin-bottom: 4rem;
+}
 
 
 
